@@ -16,7 +16,7 @@ repack()
     shift 2
 
     mkdir "$TMP/libftd3xx-$VERSION-win-$ics_arch"
-    cp "$SRC/$ftdi_arch/Static/FTD3XX.lib" "$SRC/FTD3XX.h" "$TMP/libftd3xx-$VERSION-win-$ics_arch"
+    cp "$SRC/$ftdi_arch/Static_Lib/FTD3XX.lib" "$SRC/FTD3XX.h" "$TMP/libftd3xx-$VERSION-win-$ics_arch"
 
     cd "$TMP"
     zip -r -9 "$DIST/libftd3xx-$VERSION-win-$ics_arch.zip" "libftd3xx-$VERSION-win-$ics_arch"

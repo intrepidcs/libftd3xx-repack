@@ -2,12 +2,12 @@
 
 . common.sh
 
-VERSION="1.0.14"
+VERSION="1.0.16"
 
 rm -fr "$TMP"
 mkdir -p "$TMP" "$DIST"
 
-fetch "https://ftdichip.com/wp-content/uploads/2023/06/d3xx-osx.$VERSION.tgz" "$SRC"
+fetch "https://ftdichip.com/wp-content/uploads/2024/07/d3xx-osx.$VERSION.tgz" "$SRC"
 
 mkdir -p "$TMP/libftd3xx-static"
 cd "$TMP/libftd3xx-static"

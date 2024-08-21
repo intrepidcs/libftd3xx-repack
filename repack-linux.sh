@@ -2,7 +2,7 @@
 
 . common.sh
 
-VERSION="1.0.14"
+VERSION="1.0.16"
 
 rm -fr "$TMP"
 mkdir -p "$TMP" "$DIST"
@@ -31,6 +31,6 @@ repack_linux()
     zip -r -9 "$DIST/libftd3xx-$VERSION-linux-$ics_arch.zip" "libftd3xx-$VERSION-linux-$ics_arch"
 }
 
-repack_linux "https://ftdichip.com/wp-content/uploads/2023/06/libftd3xx-linux-x86_64-$VERSION.tgz" "x64"
-repack_linux "https://ftdichip.com/wp-content/uploads/2023/06/libftd3xx-linux-arm-v7_32-$VERSION.tgz" "armhf"
-repack_linux "https://ftdichip.com/wp-content/uploads/2023/06/libftd3xx-linux-arm-v8-$VERSION.tgz" "aarch64"
+repack_linux "https://ftdichip.com/wp-content/uploads/2024/07/libftd3xx-linux-x86_64-$VERSION.tgz" "x64"
+repack_linux "https://ftdichip.com/wp-content/uploads/2024/07/libftd3xx-linux-arm-v7_32-$VERSION.tgz" "armhf"
+repack_linux "https://ftdichip.com/wp-content/uploads/2024/07/libftd3xx-linux-arm-v8-$VERSION.tgz" "aarch64"

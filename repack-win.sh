@@ -2,12 +2,12 @@
 
 . common.sh
 
-VERSION="1.3.0.4"
+VERSION="1.3.0.10"
 
 rm -fr "$TMP"
 mkdir -p "$TMP" "$DIST"
 
-fetch "https://www.ftdichip.com/Drivers/D3XX/FTD3XXLibrary_v$VERSION.zip" "$SRC"
+fetch "https://ftdichip.com/wp-content/uploads/2024/06/FTD3XXLibrary_$VERSION.zip" "$SRC"
 
 repack()
 {
